@@ -6,11 +6,11 @@
             <div class="single-meta">
                 <span class="single-meta-item single-meta-date">
                     <time datetime="{{date format="YYYY-MM-DD"}}">
-                        {{date published_at}}
+                        {{date published_at locale="zh-cn" timeago="true"}}
                     </time>
                 </span>
                 <span class="single-meta-item single-meta-length">
-                    {{reading_time}}
+                    {{reading_time minutes="% 分鐘"}}
                 </span>
                 {{#primary_tag}}
                     <span class="single-meta-item single-meta-tag">
