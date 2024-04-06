@@ -29,7 +29,15 @@
     "1 min read": "1 分鐘",
     "% min read": "% 分鐘",
     "< 1 min read": "< 1 分鐘",
-    "Sign in": "註冊帳號",
+    "Sign in": "登錄",
     "Account": "您的帳號",
-    "Powered by Ghost": "由 Ghost 搭建"
+    "Powered by Ghost": "由 Ghost 搭建",
+    "This post is for paying subscribers only": "付費閱讀",
+    "This post is for subscribers only": "註冊會員後閱讀此文",
+    "This post is for subscribers on the {{tiers}} only": "僅限 {{tiers}} 會員閱讀",
+    "Upgrade now": "即刻升級",
+    "Subscribe now": "即刻註冊",
+    "Already have an account? Sign in": "已經註冊？請登錄",
+    "Load more": "顯示更多",
+    "You might also like...": "猜您喜歡"
 }
