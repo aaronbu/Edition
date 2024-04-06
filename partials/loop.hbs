@@ -2,10 +2,10 @@
 
     <div class="feed-calendar">
         <div class="feed-calendar-month">
-            {{date published_at format="MMM"}}
+            {{date published_at}}
         </div>
         <div class="feed-calendar-day">
-            {{date published_at format="DD"}}
+            {{date published_at}}
         </div>
     </div>
 
@@ -40,7 +40,7 @@
             </div>
             {{#if reading_time}}
                 <div class="feed-length">
-                    {{reading_time minutes=(t "% min read")}}
+                    {{reading_time minute=(t "1 min read") minutes=(t "% min read") minutes=(t "< 1 min read")}}
                 </div>
             {{/if}}
             {{#if @site.comments_enabled}}
