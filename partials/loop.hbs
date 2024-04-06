@@ -33,14 +33,14 @@
         {{/if}}
         <div class="feed-right">
             <time class="feed-date" datetime="{{date format="YYYY-MM-DD"}}">
-                {{date published_at}}
+                {{date published_at locale="zh-cn"}}
             </time>
             <div class="feed-visibility feed-visibility-{{visibility}}">
                 {{> "icons/star"}}
             </div>
             {{#if reading_time}}
                 <div class="feed-length">
-                    {{reading_time}}
+                    {{reading_time minutes=(t "% min read")}}
                 </div>
             {{/if}}
             {{#if @site.comments_enabled}}
