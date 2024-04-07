@@ -2,10 +2,10 @@
 
     <div class="feed-calendar">
         <div class="feed-calendar-month">
-            {{date published_at format=MM}}
+            {{date published_at format=MM月}}
         </div>
         <div class="feed-calendar-day">
-            {{date published_at format=DD}}
+            {{date published_at format=DD日}}
         </div>
     </div>
 
@@ -38,11 +38,6 @@
             <div class="feed-visibility feed-visibility-{{visibility}}">
                 {{> "icons/star"}}
             </div>
-            {{#if reading_time}}
-                <div class="feed-length">
-                    {{reading_time minute=(t "1 min read") minutes=(t "% min read")}}
-                </div>
-            {{/if}}
             {{#if @site.comments_enabled}}
                 {{comment_count autowrap="div" class="feed-comments"}}
             {{/if}}
