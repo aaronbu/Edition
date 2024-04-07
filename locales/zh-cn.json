@@ -4,7 +4,7 @@
     "Older Posts": "舊文章",
     "Page {page} of {pages}": "共 {pages} 頁，第 {page} 頁",
     "Subscribe": "想要訂閱 Newsletter 嗎？",
-    "Subscribe to {blogtitle}": "通過 Newsletter 關注 {blogtitle}",
+    "Subscribe to {blogtitle}": "訂閱 Newsletter，關注 {blogtitle}",
     "Subscribed!": "感謝關注！",
     "with the email address": "，請您提供電子郵件地址",
     "Your email address": "您的電子郵件地址",
@@ -42,5 +42,6 @@
     "You might also like...": "猜您喜歡",
     "Facebook": "Facebook",
     "Twitter": "X",
-    "Published by:": "投稿人"
+    "Published by:": "投稿人",
+    "Member discussion": " 會員讨论"
 }
