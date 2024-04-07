@@ -79,8 +79,7 @@
 }
 
 .feed-calendar {
-    display: inline-block;
-    width: 5rem;
+    display: flex;
     margin-right: 1.5rem;
     font-size: 1.1rem;
     font-weight: 800;
@@ -96,6 +95,7 @@
 .feed-calendar-month {
     margin-right: 0.4rem;
     text-transform: uppercase;
+    width: 5rem;
 }
 
 .feed-image {
