@@ -1,11 +1,11 @@
-<article class="feed {{post_class}}" data-month="{{date locale="zh-cn"}}">
+<article class="feed {{post_class}}" data-month="{{date format="YYYY MM DD"}}">
 
     <div class="feed-calendar">
         <div class="feed-calendar-month">
-            {{date published_at format=MM月}}
+            {{date published_at format=MM}}
         </div>
         <div class="feed-calendar-day">
-            {{date published_at format=DD日}}
+            {{date published_at format=DD}}
         </div>
     </div>
 
