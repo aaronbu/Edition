@@ -56,3 +56,26 @@
     font-style: italic;
     font-weight: 700;
 }
+@font-face {
+    font-family: "Noto Serif SC";
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Noto Serif SC";
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Noto Serif SC";
+    font-style: italic;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Noto Serif SC";
+    font-style: italic;
+    font-weight: 700;
+}
