@@ -86,7 +86,6 @@
     line-height: 1.5;
     color: var(--brand-color);
     white-space: nowrap;
-    flex-basis: 100px;
 }
 
 .post-feed.expanded .feed-calendar {
