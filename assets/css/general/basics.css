@@ -18,8 +18,8 @@
     --animation-base: ease-in-out;
     --font-sans: Karla, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
     --font-serif: Noto Serif TC, Noto Serif SC, Noto Serif, serif;
-    --navbar-height: 80px;
-    --content-font-size: 1.7rem;
+    --navbar-height: 100px;
+    --content-font-size: 2rem;
     --header-spacing: 6vmin;
 }
 
@@ -28,5 +28,5 @@
 }
 
 :where(h1, h2, h3, h4, h5, h6) {
-    font-weight: 800;
+    font-weight: 700;
 }
