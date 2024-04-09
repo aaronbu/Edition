@@ -13,9 +13,9 @@
 
 .feed-header-title {
     margin-bottom: 0;
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-transform: uppercase;
-    letter-spacing: 0.05rem;
+    letter-spacing: 0.1rem;
 }
 
 .post-feed {
@@ -82,7 +82,7 @@
     display: flex;
     margin-right: 1.5rem;
     font-size: 1.1rem;
-    font-weight: 800;
+    font-weight: 700;
     line-height: 1.5;
     color: var(--brand-color);
     white-space: nowrap;
