@@ -7,4 +7,5 @@
 \pard\pardeftab720\partightenfactor0
 
 \f0\fs32 \cf2 \cb3 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 node_modules/}
+node_modules/\
+dist/}
